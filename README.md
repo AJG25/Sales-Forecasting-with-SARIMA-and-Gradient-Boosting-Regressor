@@ -1,6 +1,6 @@
 # Time-Series-Sales-Forecasting-with-SARIMA
 
-The project is focused on forecasting product-level sales for the FOODS_3 category at TX_3 store using statistical and machine learning methods. It applies time series forecasting on real-world retail data. Different modeling approaches for predicting daily sales 28 days ahead are tested, incorporating seasonality, event effects, and temporal patterns.
+The project is focused on forecasting product-level sales for the food category at selected store using statistical and machine learning methods. It applies time series forecasting on real-world retail data. Different modeling approaches for predicting daily sales 28 days ahead are tested, incorporating seasonality, event effects, and temporal patterns.
 
 ## Data
 
@@ -32,7 +32,7 @@ Metric: **RMSE (Root Mean Squared Error)** on 28-day forecast
 - GBR outperformed SARIMA, handling non-linearity and event-based patterns better.
 - SARIMA used as baseline for capturing seasonality/trends.
 
-## 📌 Key Features
+## Key Features
 
 - Data preprocessing with calendar/event alignment
 - Item-level modeling

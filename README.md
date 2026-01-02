@@ -1,4 +1,4 @@
-# Time-Series-Sales-Forecasting-with-SARIMA
+# Time-Series-Sales-Forecasting-with-SARIMA-and-Gradient-Boosting
 
 ## Project Overview
 Forecasted daily product-level sales for the food category at selected stores using statistical and machine learning methods. The goal was to predict sales 28 days ahead while accounting for seasonality, events, and temporal patterns, using both SARIMA and Gradient Boosting models.

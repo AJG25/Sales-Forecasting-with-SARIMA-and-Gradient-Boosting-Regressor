@@ -16,32 +16,17 @@ The project is focused on forecasting product-level sales for the food category 
 
 ### Machine Learning (Python)
 - **Gradient Boosting Regressor (GBR)**: Tree-based regression with feature engineering
-- Stack: `scikit-learn`, `pandas`, `numpy`
+- Stack: scikit-learn, Pandas, NumPy
 - One-hot encoded date features, separate model per item
 
 ## Evaluation
-
-Metric: **RMSE (Root Mean Squared Error)** on 28-day forecast
-
-| Model   | Avg. RMSE |
-|---------|-----------|
-| Naive   | 2.6       |
-| **SARIMA**| ~321    |
-| GBR     | 2.2       |
 
 - GBR outperformed SARIMA, handling non-linearity and event-based patterns better.
 - SARIMA used as baseline for capturing seasonality/trends.
 
 ## Key Features
-
 - Data preprocessing with calendar/event alignment
 - Item-level modeling
 - Hyperparameter tuning
 - Clean and modular pipelines
-
-## Future Work
-
-- Extend to other categories/stores
-- Incorporate deep learning
-- Add external data (promotions, pricing)
 
